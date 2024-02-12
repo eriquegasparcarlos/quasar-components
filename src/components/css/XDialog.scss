@@ -1,0 +1,31 @@
+.x-dialog {
+  .x-dialog-card {
+    margin-top: 5vh;
+    max-width: 90vw !important;
+
+    .x-dialog-card-section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .title {
+        font-size: $dialog-title-font-size;
+        font-weight: $dialog-title-font-weight;
+      }
+      .icon-close {
+        font-size: 24px;
+      }
+    }
+
+    .x-dialog-card-section-content {
+
+    }
+
+    .x-dialog-card-section-footer {
+    }
+  }
+
+  .q-dialog__inner--top > div {
+    border-top-left-radius: $generic-border-radius !important;
+    border-top-right-radius: $generic-border-radius !important;
+  }
+}

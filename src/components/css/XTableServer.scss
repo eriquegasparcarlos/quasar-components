@@ -1,0 +1,54 @@
+.x-table-card {
+  border-radius: 0;
+
+  .x-table-section-title {
+    .title {
+      color: $table-server-title-color;
+      font-size: $table-server-title-font-size;
+      font-weight: $table-server-title-font-weight;
+    }
+  }
+
+  .x-table-section-filters {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .x-table-section-widgets {
+    padding: 8px 16px;
+
+    .x-table-widget {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 16px;
+
+      .x-table-widget-label {
+        font-size: 16px;
+      }
+
+      .x-table-widget-value {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .x-table-section-content {
+    padding-top: 0;
+    .table-index {
+      .q-table thead tr th {
+        color: $table-server-content-th-color;
+        font-size: $table-server-content-th-font-size;
+        font-weight: $table-server-content-th-font-weight;
+      }
+      .q-table td {
+        color: $table-server-content-td-color;
+        font-size: $table-server-content-td-font-size;;
+        font-weight: $table-server-content-td-font-weight;
+      }
+    }
+  }
+}

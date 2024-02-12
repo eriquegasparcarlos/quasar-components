@@ -1,0 +1,107 @@
+.q-drawer {
+  z-index: 2001;
+}
+.q-drawer--on-top {
+  z-index: 3000;
+}
+.q-drawer-container {
+  .q-drawer {
+    font-size: $menu2-font-size;
+    .drawer-menu {
+      background-color: $menu2-background-color;
+      box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%);
+      .menu-main {
+        padding: 0 $menu2-menu-main-padding-right 8px $menu2-menu-main-padding-right;
+        .fa-chevron-down {
+          font-size: .8rem;
+          color: $menu2-font-color;
+          font-weight: bold;
+        }
+
+        .q-item {
+          padding: 8px 0 8px 16px;
+          color: $menu2-font-color;
+          .q-focus-helper {
+            display: none;
+          }
+          .q-item__section--avatar {
+            color: $menu2-font-color;
+          }
+        }
+
+        & > a.q-item {
+          transition: all 0.15s linear;
+          .q-item__section--avatar {
+            padding-right: 0;
+            min-width: 36px;
+          }
+          &:hover {
+            color: $menu2-font-color-hover;
+            padding-left: 8px;
+            .q-item__section--avatar {
+              color: $menu2-font-color-hover;
+            }
+          }
+        }
+
+        .q-expansion-item {
+          div.q-item.q-item--clickable {
+            transition: all 0.15s linear;
+            background-color: transparent;
+            .q-item__section--avatar {
+              padding-right: 0;
+              min-width: 36px;
+            }
+            &:hover {
+              color: $menu2-font-color-hover;
+              padding-left: 8px;
+              .q-item__section--avatar {
+                color: $menu2-font-color-hover;
+              }
+            }
+          }
+          &.q-expansion-item {
+            a.q-item {
+              border-radius: 6px;
+              min-height: 36px;
+              padding: 4px 0 4px 32px;
+              transition: all 0.2s;
+            }
+            .q-expansion-item__content {
+              border-radius: 6px;
+              background-color: #f7faff;
+              padding: 8px;
+            }
+          }
+          &.q-expansion-item--expanded {
+            .q-expansion-item__container {
+              border-radius: 6px;
+              .q-expansion-item__content {
+                a.q-item {
+                  &:hover {
+                    padding-left: 24px;
+                    color: $menu2-font-color-hover;
+                    background-color: white;
+                  }
+                }
+                .q-expansion-item {
+                  div.q-item.q-item--clickable {
+                    padding: 0 8px 0 16px;
+                    min-height: 36px;
+                    border-radius: 6px;
+                    transition: all 0.15s linear;
+                    &:hover {
+                      color: $menu2-font-color-hover;
+                      padding-left: 24px;
+                      background-color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.x-select {
+  &.q-field--with-bottom {
+    padding-bottom: 0;
+  }
+  &.select-truncate {
+    .q-field__native span {
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.x-datepicker {
+  .dp__main.dp__theme_light {
+    width: 100%;
+
+    .dp__input {
+      border: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      font-family: $typography-font-family;
+      font-size: $body-font-size;
+    }
+
+    .dp__input_icon_pad {
+      padding-left: 24px;
+      padding-right: 12px;
+    }
+
+    .dp__input_icon {
+      padding-left: 0;
+    }
+
+    .dp__clear_icon {
+      padding-right: 0;
+      top: 25%;
+    }
+  }
+}

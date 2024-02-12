@@ -1,0 +1,15 @@
+.x-input {
+  &.q-field--with-bottom {
+    padding-bottom: 0;
+  }
+}
+.x-input-search-person {
+  &.q-field--with-bottom {
+    padding-bottom: 0;
+  }
+  .q-field__bottom .q-field__counter{
+    position: absolute;
+    top: -16px;
+    right: 6px;
+  }
+}

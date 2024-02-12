@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+$primary   : #1976D2;
+$secondary : #26A69A;
+$accent    : #9C27B0;
+
+$dark      : #1D1D1D;
+$dark-page : #121212;
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #31CCEC;
+$warning   : #F2C037;
+
+$flex-cols: 24;
+
+$typography-font-family: 'Open Sans', 'Poppins', sans-serif;
+$body-font-size: 14px;
+$body-color: #60769a;
+$body-background-color: #f3f3f4;
+
+$separator-color: #dddddd;
+$grey-7: #888888;
+
+/*
+ * Scroll
+ */
+$scroll-background-color: $grey-7;
+
+/*
+ * TableServer
+ */
+$table-server-title-color: $body-color;
+$table-server-title-font-size: 1.5rem;
+$table-server-title-font-weight: 600;
+$table-server-content-th-color: $body-color;
+$table-server-content-th-font-size: .8rem;
+$table-server-content-th-font-weight: 600;
+$table-server-content-td-color: $body-color;
+$table-server-content-td-font-size: .85rem;
+$table-server-content-td-font-weight: 400;
+
+/*
+ * Dialog
+ */
+$dialog-title-font-size: 1.5rem;
+$dialog-title-font-weight: 600;
+
+/*
+ * Menu1
+ */
+$menu1-font-size: 0.9rem;
+$menu1-background-color: #2F4050;
+$menu1-item-expanded-border-left-color: #1ab394;
+$menu1-item-expanded-background-color: #293846;
+$menu1-font-color: #a7b1c2;
+$menu1-font-color-hover: #fff;
+$menu1-item-expanded-font-color: #fff;
+
+/*
+ * Menu2
+ */
+$menu2-font-size: .9rem;
+$menu2-background-color: #fff;
+$menu2-item-expanded-background-color: #293846;
+$menu2-font-color: #60769a;
+$menu2-font-color-hover: #0074ff;
+$menu2-item-expanded-font-color: #fff;
+$menu2-menu-main-padding-left: 12px;
+$menu2-menu-main-padding-right: 12px;
